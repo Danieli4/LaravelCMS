@@ -2,96 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e3d38c2-7bd1-45a4-8342-18988b0f7a9a" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/.idea/Docker_Lalravel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/.buildcomplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Console/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Exceptions/Handler.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Http/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Http/Middleware/TrimStrings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Http/Middleware/TrustHosts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Http/Middleware/TrustProxies.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Models/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/app/Providers/RouteServiceProvider.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/artisan" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/bootstrap/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/bootstrap/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/app.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/broadcasting.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/cache.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/cors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/filesystems.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/hashing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/logging.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/mail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/queue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/sanctum.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/services.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/config/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/database/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/database/factories/UserFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/lang/en/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/lang/en/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/lang/en/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/lang/en/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/licenses/laravel-9.3.7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/public/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/resources/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/resources/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/resources/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/resources/views/welcome.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/routes/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/routes/channels.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/routes/console.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/routes/web.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/storage/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/storage/app/public/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/storage/framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/storage/framework/cache/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/storage/framework/sessions/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/storage/framework/testing/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/storage/framework/views/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/storage/logs/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/tests/CreatesApplication.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/tests/Feature/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/tests/TestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/tests/Unit/ExampleTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my-project/vite.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Http/Middleware/PreventRequestsDuringMaintenance.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Http/Middleware/TrustHosts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Http/Middleware/ValidateSignature.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Models/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/cors.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/sanctum.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/resources/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LaravelCMS/vite.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,9 +236,10 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.laravel-idea.search-composer-json": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/danilgryaznev/Library/CloudStorage/GoogleDrive-daniel58912007@gmail.com/Другие компьютеры/Компьютер/Docker_Lalravel",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -255,10 +251,23 @@
       <recent name="$PROJECT_DIR$/my-project" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.ExampleTest">
+    <configuration name="ExampleTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\Unit\ExampleTest" file="$PROJECT_DIR$/my-project/tests/Unit/ExampleTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <configuration name="lara" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Laravel">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHP Web Page.lara" />
+      <item itemvalue="PHPUnit.ExampleTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.ExampleTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -270,7 +279,8 @@
       <updated>1660709810891</updated>
       <workItem from="1660709811986" duration="12326000" />
       <workItem from="1661416640595" duration="1236000" />
-      <workItem from="1663382994949" duration="888000" />
+      <workItem from="1663382994949" duration="3635000" />
+      <workItem from="1663386826098" duration="74000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1663383435639</created>
@@ -279,7 +289,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663383435639</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1">
+      <created>1663383974684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663383974684</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1">
+      <created>1663384013878</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663384013878</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
