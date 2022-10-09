@@ -54,4 +54,14 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    /**
+     * *Declaration of the direct relation of "one to many"
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+
+    public function bbs(){
+        return $this->hasMany(Bb::class);
+    }
 }
