@@ -1,0 +1,4 @@
+h1 {
+    background: url("/images/tulpan.jpeg") left / auto 100% no-repeat,
+    url("/images/tulpan.jpeg") right / auto 100% no-repeat;
+}
