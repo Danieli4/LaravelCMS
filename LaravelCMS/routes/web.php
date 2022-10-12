@@ -26,6 +26,7 @@ Route::get('home/{bb}/delete', [HomeController::class, 'showDeleteBbForm'])->nam
 Route::get('home/{bb}/destroy', [HomeController::class, 'destroyBb'])->name('bb.destroy');
 
 Route::get('/{bb}', [BbsController::class, 'detail'])->name('detail');
+//Route::get('/phpmyinfo', function () {phpinfo();})->name('phpmyinfo');
 
 
 
