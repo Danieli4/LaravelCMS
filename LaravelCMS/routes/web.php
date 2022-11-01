@@ -35,7 +35,7 @@ Route::view('/','welcome');
 //    ->name('bb.destroy')->middleware('can:destroy, bb');
 //
 //Route::get('/{bb}', [BbsController::class, 'detail'])->name('detail');
-////Route::get('/phpmyinfo', function () {phpinfo();})->name('phpmyinfo');
+Route::get('/phpmyinfo', function () {phpinfo();})->name('phpmyinfo');
 
 // Пробуем создать контроллер управления пользователями
 
