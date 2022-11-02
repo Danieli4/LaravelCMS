@@ -18,13 +18,13 @@ class PostFactory extends Factory
      */
     public function definition()
     {
-        $path = Storage::disk("local")->path('public/posts');
+        //$path = Storage::disk("local")->path('public/posts');
         return [
             "title" => $this->faker->name(),
             "description" => $this->faker->text(),
             "preview" => $this->faker->text(50),
-            "thumbnail" => $this->faker->image($path,640,520,null,
-                false, true, null, false, 'jpg')
+            "thumbnail" => $this->faker->image("public/storage/images",640,520,null,
+                false)
         ];
     }
 }
