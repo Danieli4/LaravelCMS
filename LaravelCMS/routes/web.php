@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\HomeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,8 +17,23 @@ use App\Http\Controllers\HomeController;
 // Тестовый контроллер объявлений
 
 Route::get('/', [IndexController::class, 'index'])->name('home');
+
 Route::get('/posts', [\App\Http\Controllers\PostController::class, 'index'])->name('post.index');
 Route::get('/posts/{id}', [\App\Http\Controllers\PostController::class, 'show'])->name('posts.show');
+
+Route::middleware("auth")->group(function(){
+    Route::get('/logout', [\App\Http\Controllers\AuthController::class, 'logout'])->name('logout');
+});
+
+Route::middleware("guest")->group(function(){
+    Route::get('/login', [\App\Http\Controllers\AuthController::class, 'showLoginForm'])->name('login');
+    Route::post('/login_process', [\App\Http\Controllers\AuthController::class, 'login'])->name('login_process');
+
+    Route::get('/register', [\App\Http\Controllers\AuthController::class, 'showRegisterForm'])->name('register');
+    Route::post('/register_process', [\App\Http\Controllers\AuthController::class, 'register'])->name('register_process');
+});
+
+
 
 //Route::prefix("news")->middleware('r')->group(function(){
 //    Route::get('[id]', [IndexController::class, 'index'])->name('home');
