@@ -14,16 +14,17 @@ use App\Http\Controllers\HomeController;
 |
 */
 // Тестовый контроллер объявлений
-Route::middleware("r")->group(function(){
-    Route::get('/', [IndexController::class, 'index'])->name('home');
-});
 
-Route::prefix("news")->middleware('r')->group(function(){
-    Route::get('[id]', [IndexController::class, 'index'])->name('home');
-});
+Route::get('/', [IndexController::class, 'index'])->name('home');
+Route::get('/posts', [\App\Http\Controllers\PostController::class, 'index'])->name('post.index');
+Route::get('/posts/{id}', [\App\Http\Controllers\PostController::class, 'show'])->name('posts.show');
 
-
-Route::view('/','welcome')->middleware("r");
+//Route::prefix("news")->middleware('r')->group(function(){
+//    Route::get('[id]', [IndexController::class, 'index'])->name('home');
+//});
+//
+//
+//Route::view('/','welcome')->middleware("r");
 
 
 
