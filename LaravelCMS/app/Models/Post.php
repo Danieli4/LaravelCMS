@@ -17,7 +17,8 @@ class Post extends Model
 //    ];
 
 protected $guarded =[];
-    public function comments(){
-        $this->hasMany(Comment::class)->orderBy("created_at");
+    public function comments(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+       return $this->hasMany(Comment::class)->orderBy("created_at");
     }
 }

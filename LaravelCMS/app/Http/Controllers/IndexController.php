@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactForm;
 use App\Models\Post;
-use Illuminate\Http\Request;
+use App\Http\Requests\ContactFormRequest;
+use Illuminate\Support\Facades\Mail;
 
 class IndexController extends Controller
 {
@@ -15,6 +17,18 @@ class IndexController extends Controller
         return view("welcome", [
             "posts"=>$post,
         ]);
+    }
+
+    public function showContactForm()
+    {
+        return view("contact_form");
+    }
+
+    public function contactForm(ContactFormRequest $request)
+    {
+        Mail::to("daniel58912007  @gmail.com")->send(new ContactForm($request->validated()));
+
+        return redirect(route("contacts"));
 
     }
 
